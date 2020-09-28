@@ -1,0 +1,29 @@
+{
+
+    "description": "DESC NOEL",
+    "manifest_version": 2,
+    "name": "Matthieu NOEL",
+    "version": "0.1",
+    "homepage_url": "http://webqbe.com/cv",
+
+    "icons": {
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+
+    "permissions": [
+        "http://*/*",
+        "https://*/*",
+        "tabs",
+        "activeTab"
+    ],
+
+    "browser_action": {
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "32": "icons/icon32.png"
+        },
+        "default_popup": "index.html"
+    }
+
+}
